@@ -47,7 +47,7 @@ const UsercompletedInfo = (props) => {
     // }
 
   return (
-    <div className='flex flex-row relative top-[200px]'>
+    <div className='flex flex-col sm:flex-rowrelative top-[200px]'>
         <div className="  w-[255px] h-[72px] pl-6 pr-[18px] py-4 border-l border-b border-neutral-200 justify-between items-center inline-flex">
             <div className="flex-col justify-center items-start gap-1.5 inline-flex">
                 <div className="text-center text-zinc-950 text-sm font-medium font-['Lettera Text LL'] leading-[18px]">{data.name}</div>
