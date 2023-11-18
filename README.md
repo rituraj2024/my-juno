@@ -9,7 +9,7 @@ This is a starter pack for creating React projects with Tailwind CSS configured.
 
 This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
 
-0. Website Hosted on netlify
+0. Live Website Link:  Hosted on netlify
     
      https://rituraj-junoassignmentfrontend.netlify.app/
     
