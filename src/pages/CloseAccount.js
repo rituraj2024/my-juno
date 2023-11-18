@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
-
+import "./CloseAccount.css"
 const CloseAccount= ({ onClose }) => {
   const [formData, setFormData] = useState({
     email: '',
@@ -59,6 +59,7 @@ const CloseAccount= ({ onClose }) => {
             <div>
               <label>
                 <input
+                 
                   type="radio"
                   name="wantToFileUAR"
                   value="Yes"
@@ -118,7 +119,7 @@ const CloseAccount= ({ onClose }) => {
             </label>
           </div>
 
-          <button type="submit" onClick={onClose} className="bg-neutral-300 rounded-lg text-white px-4 py-2 absolute right-[560px] ">
+          <button type="submit" onClick={onClose} className="bg-indigo-600 rounded-lg text-white px-4 py-2 absolute right-[560px] ">
             Close Account
           </button>
         </form>

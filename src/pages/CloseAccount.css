@@ -1,0 +1,12 @@
+
+input[type="checkbox"]:checked + label::before {
+    background-color: #4f46e5; /* Replace with your desired indigo color */
+    border-color: #4f46e5;
+  }
+  
+  /* Additional styling for the checkbox label */
+  label::before {
+    /* ... Your existing styles ... */
+    border: 2px solid #4f46e5; /* Replace with your desired indigo color */
+    /* ... Your existing styles ... */
+  }
