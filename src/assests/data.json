@@ -1,0 +1,17 @@
+{"TriggerRegion":
+ [
+    {"id": "A", "name": "Hard flag"},
+    {"id": "B", "name": "Temp Flag"},
+    {"id": "C", "name": "Restricted unflag"},
+    {"id": "D", "name": "Un flag"},
+    {"id": "E", "name": "Reviewed"}
+
+  ]
+
+
+
+}
+
+
+
+

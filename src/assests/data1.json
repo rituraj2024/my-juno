@@ -1,0 +1,12 @@
+{"RiskLevel":
+    [
+        {"id": "1", "name": "Low"},
+        {"id": "2", "name": "High"},
+        {"id": "3", "name": "Medium"}
+    ]
+
+}
+
+
+
+

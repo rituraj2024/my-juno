@@ -1,0 +1,23 @@
+.tab-container {
+  display: flex;
+}
+
+.tab-item {
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  position: relative;
+}
+
+.tab-item.active {
+  color: indigo;
+}
+
+.underline {
+  height: 2px;
+  width: 50%;
+  background-color: indigo;
+  position: absolute;
+  bottom: 0;
+  transition: left 0.3s ease;
+}

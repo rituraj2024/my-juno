@@ -1,0 +1,25 @@
+.hover-container p {
+            color: black; 
+            
+            transition: color 0.1s;
+        }
+
+        /* Change the text color to indigo on hover */
+.hover-container:hover p {
+            color: indigo;
+            color: #4f46e5;
+            //background-color: #4f46e5;
+            
+            //background-color: rgba(0, 0, 0,.12);
+            border-radius: 5px;
+            width: 194px;
+            height:25px;
+    }
+
+    /* Add your existing styles here */
+
+.hover-container:hover {
+        cursor: pointer;
+      }
+    
+      
