@@ -1,5 +1,5 @@
 import React from 'react'
-import UsercompletedInfo from './UsercompletedInfo'
+//import UsercompletedInfo from './UsercompletedInfo'
 //import userdata from '../assests/userdata.json'
 import { RiArrowDropUpLine } from "react-icons/ri";
 import { RiArrowDropDownLine } from "react-icons/ri";
