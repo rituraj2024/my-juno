@@ -3,7 +3,7 @@
 This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 ## Live Website Link:  Hosted on netlify
     
-     https://rituraj-junoassignmentfrontend.netlify.app/
+     https://riturajjunoassignmentfrontend.netlify.app/
     
 ## Usage
 
@@ -11,7 +11,7 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 
 0. Live Website Link:  Hosted on netlify
     
-     https://rituraj-junoassignmentfrontend.netlify.app/
+     https://riturajjunoassignmentfrontend.netlify.app/
     
 
 1. Clone the repository to your local machine.
