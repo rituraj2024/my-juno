@@ -16,8 +16,8 @@ const UserPendingStatusBar = () => {
 
         <div className="w-[149px] h-12 px-6 py-3 bg-neutral-100 border-b border-neutral-200 justify-start items-center gap-[11px] inline-flex">
             <div className=" items-center gap-1 flex flex-row justify-end">
-                <div className="text-zinc-950 text-xs font-medium ">Risk level</div>
-                <div className='absolute left-[335px]'>
+                <div className="text-zinc-950 text-xs font-medium absolute left-[315px]">Risk level</div>
+                <div className='absolute left-[365px]'>
                     <RiArrowDropUpLine className='absolute top-[-10px]'/>
                     <RiArrowDropDownLine className='absolute top-[-4px]'/>
                 </div>
@@ -53,9 +53,9 @@ const UserPendingStatusBar = () => {
             <div className="w-[18px] h-[18px] relative" />
         </div>
 
-        <div className="w-[181.50px] h-12 px-6 py-3 bg-neutral-100 rounded-tr-xl border-b border-neutral-200 justify-start items-center gap-[11px] inline-flex">
+        <div className="w-[105px] h-15   bg-neutral-100 rounded-tr-xl border-b border-neutral-200 justify-start items-center gap-[11px] inline-flex">
             <div className="justify-start items-center gap-1 flex">
-                <div className="text-zinc-950 text-xs font-medium ">Previously reviewed</div>
+                <div className="text-zinc-950 text-xs absolute right-[20px] font-medium ">Previously reviewed</div>
             </div>
         </div>
     </div>

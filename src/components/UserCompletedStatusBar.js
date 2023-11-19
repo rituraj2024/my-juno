@@ -1,5 +1,5 @@
 import React from 'react'
-//import UsercompletedInfo from './UsercompletedInfo'
+import UsercompletedInfo from './UsercompletedInfo'
 //import userdata from '../assests/userdata.json'
 import { RiArrowDropUpLine } from "react-icons/ri";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -53,7 +53,7 @@ const UserCompletedStatusBar = () => {
             <div className="w-[18px] h-[18px] relative" />
         </div>
 
-        <div className="w-52 h-12 px-6 py-3 bg-neutral-100 rounded-tr-xl border-b border-neutral-200 justify-start items-center gap-[11px] inline-flex">
+        <div className="w-[196px] h-12 px-6 py-3 bg-neutral-100 rounded-tr-xl border-b border-neutral-200 justify-start items-center gap-[11px] inline-flex">
             <div className="justify-start items-center gap-1 flex">
                 <div className="text-zinc-950 text-xs font-medium font-['Lettera Text LL'] leading-[18px]">Action taken by</div>
             </div>

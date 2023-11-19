@@ -54,9 +54,9 @@ const UserPendingInfo = (props) => {
             <div className="w-[18px] h-[18px] relative" />
         </div>
 
-        <div className="w-[149px] sm:w-36 h-[72px] pl-6 pr-[18px] py-4 border-b border-neutral-200 justify-start items-center gap-1.5 inline-flex">
-            <div className={`w-2.5 h-2.5 ${getColorByRiskLevel(data.Risklevel)}  rounded-full`} />
-            <div className={`text-center ${gettextColorByRiskLevel(data.Risklevel)} text-sm font-medium font-['Lettera Text LL'] leading-[18px] `}>{data.Risklevel}</div>
+        <div className="w-[149px] sm:w-36 h-[72px] pl-6 pr-[18px]  py-4 border-b border-neutral-200 justify-start items-center gap-1.5 inline-flex">
+            <div className={`w-2.5 h-2.5 ${getColorByRiskLevel(data.Risklevel)}  right-[20px] rounded-full`} />
+            <div className={`text-center ${gettextColorByRiskLevel(data.Risklevel)} text-sm font-medium  right-[50px] font-['Lettera Text LL'] leading-[18px] `}>{data.Risklevel}</div>
         </div>
 
         <div className="w-[164px] h-[72px] sm:w-40 pl-6 pr-[18px] py-4 border-b border-neutral-200 flex-col justify-center items-start gap-1.5 inline-flex">
@@ -73,7 +73,7 @@ const UserPendingInfo = (props) => {
             <div className="text-center text-neutral-500 text-sm font-medium font-['Lettera Text LL'] leading-none">{data.Dateaddedon}</div>
         </div>
 
-        <div className="w-[181.50px] h-[72px] sm:w-36  pl-6 pr-[18px] py-4 border-r border-b border-neutral-200 justify-start items-center gap-3 inline-flex">
+        <div className="w-[182.50px] h-[72px] sm:w-36  pl-6 pr-[18px] py-4 border-r border-b border-neutral-200 justify-start items-center gap-3 inline-flex">
             <div className="flex-col justify-center items-start gap-1.5 inline-flex">
                 <div className="text-center text-zinc-950 text-base font-medium font-['Lettera Text LL'] leading-[18px]">{data.Previouslyreviewed[0]} </div>
                 <div className="text-center text-neutral-500 text-xs font-medium font-['Lettera Text LL'] leading-none">{data.Previouslyreviewed[1]}</div>
